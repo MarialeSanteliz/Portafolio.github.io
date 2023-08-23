@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+      integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js"
+      integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Porfolio</title>
+  </head>
+  <body>
+    <!-- Secciòn INICIO -->
+    <span class="sombra">
+      <section id="inicio" class="inicio">
+        <div class="contenido">
+          <header>
+            <div class="logo">
+              <i class="fa-brands fa-codepen"></i>
+              <h1>MARIALE</h1>
+            </div>
+            <nav id="nav" class="">
+              <a href="#inicio">Inicio</a>
+              <a href="#servicios">Cursos</a>
+              <a href="#habilidades">Habilidades</a>
+              <a href="#contacto">Contacto</a>
+            </nav>
+            <!-- Icono del menu responsive -->
+            <div id="icono-nav" onclick="responsiveMenu()">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="redes">
+              <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a
+                href="https://www.instagram.com/marialeS12/?%C2%A1gshid=OGQ5ZDc2ODK2ZA%3D%3D"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="https://github.com/MarialeSanteliz " target="_blank"
+                ><i class="fa-brands fa-git"></i
+              ></a>
+            </div>
+          </header>
+
+          <div class="fila">
+            <div class="col">
+              <h2>Desarrolladora Web</h2>
+              <p>
+                Mi nombre es Maria Alejandra Santeliz Gonzales, Desarrolladora
+                Web.!
+              </p>
+              <button class="btn btn-1">
+                <a href="downloads/Cv New Mari.pdf" download="Cv maria_Santeliz"
+                  >Descargar Cv</a
+                >
+              </button>
+            </div>
+            <div class="col">
+              <div class="contenedor-img">
+                <img src="img/foto-inicio.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </span>
+
+    <!-- sección SERVICIOS -->
+    <section id="servicios" class="servicios">
+      <div class="fila">
+        <div class="col">
+          <div class="card">
+            <div class="icono color1">
+              <div class="circulo">
+                <i class="fa-solid fa-code"></i>
+              </div>
+            </div>
+            <h3>Diseño Web</h3>
+            <p>
+              Curso de diseño web, Emitio por Nucba con una carga horaria de
+              64hrs, Finalizado
+            </p>
+
+            <a href="#">Descargar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="icono color2">
+              <div class="circulo">
+                <i class="fa-solid fa-desktop"></i>
+              </div>
+            </div>
+            <h3>Desarollo web Front End</h3>
+            <p>
+              Curso de Desarollo web Front End, Emitio por Codigo Pa´Lante con
+              una carga horaria de 90hrs, Finalizado
+            </p>
+
+            <a href="#">Descargar</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <div class="icono color3">
+              <div class="circulo">
+                <i class="fa-brands fa-square-js" style="color: #ffffff"></i>
+              </div>
+            </div>
+            <h3>Java Script</h3>
+            <p>
+              Curso de Java Script y , Emitio por Nucba con una carga horaria de
+              90hrs, En Proceso
+            </p>
+
+            <a href="#">Descargar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sección habilidades -->
+    <section class="habilidades" id="habilidades">
+      <div class="contenedor-habi">
+        <h2>Habilidades</h2>
+        <div class="fila">
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart" data-percent="95">95%</div>
+                <h2>HTML</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart" data-percent="90">95%</div>
+                <h2>CSS</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart" data-percent="10">10%</div>
+                <h2>JAVASCRIPT</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fila">
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart" data-percent="20">20%</div>
+                <h2>Back End</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart" data-percent="20">20%</div>
+                <h2>Front end</h2>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="score">
+              <div class="box">
+                <div class="chart" data-percent="40">40%</div>
+                <h2>PHOTOSHOP</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sección trabajos -->
+    <section class="trabajos" id="trabajos">
+      <h2>Mis Trabajos</h2>
+      <div class="galeria">
+        <div class="item disenio">
+          <img src="img/Logo.png" alt="" />
+          <div class="info">
+            <h3>Pagina Web</h3>
+            <span>html</span><span>css</span><span>javascript</span>
+            <a href="https://nueva-pagina-web.vercel.app/" target="_blank"
+              >Ver Trabajo</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- sección contacto -->
+    <section class="contacto" id="contacto">
+      <div class="contenedor-contacto">
+        <h2>Contacto</h2>
+        <div class="fila">
+          <div class="col">
+            <div class="info">
+              <h3>Email:</h3>
+              <p>Marialesantelizg@gmail</p>
+            </div>
+            <div class="info">
+              <h3>Teléfono:</h3>
+              <p>+54 1161630486</p>
+            </div>
+            <div class="info">
+              <h3>País</h3>
+              <p>Argentina</p>
+            </div>
+            <div class="info">
+              <h3>Ciudad:</h3>
+              <p>Capital Federal</p>
+            </div>
+          </div>
+          <div class="col">
+            <input type="text" placeholder="Nombre..." />
+            <input type="text" placeholder="Correo..." />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Mensaje"
+            ></textarea>
+            <input type="submit" value="Enviar" class="btn" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Creado por Mariale Santeliz - 2023 - Buenos Aires</p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
