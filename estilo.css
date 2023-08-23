@@ -1,10 +1,10 @@
 /* importamos la fuente */
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Quicksand', sans-serif;
 }
 html{
     scroll-behavior: smooth;
@@ -338,13 +338,13 @@ body{
     border: 1px solid #040404 ;
     margin-bottom: 20px;
     outline: none;
-    color: #000000;
+    color: #ff5b00;
 }
 .contacto .btn{
     background-color: none;
     padding: 5px 40px;
     border: 2px solid;
-    color: #f8f7f7;
+    color: #000000;
     cursor: pointer;
     background: linear-gradient(to right, #050505, #040404);
 }
